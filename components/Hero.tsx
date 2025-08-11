@@ -57,7 +57,7 @@ export default function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6">
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
               Chethiya Bandara
             </span>
@@ -95,9 +95,9 @@ export default function Hero() {
           {/* Social Links */}
           <div className="flex items-center justify-center space-x-6">
             {[
-              { icon: Github, href: '#', label: 'GitHub' },
-              { icon: Linkedin, href: '#', label: 'LinkedIn' },
-              { icon: Mail, href: '#', label: 'Email' },
+              { icon: Github, href: 'https://github.com/chethiya2001', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/chethiya-bandara-96867234a/', label: 'LinkedIn' },
+              { icon: Mail, href: 'mailto:chethiyabandaraherath@gmail.com', label: 'Email' },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
