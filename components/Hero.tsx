@@ -69,7 +69,7 @@ export default function Hero() {
           </h2>
           
           <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, responsive web applications with modern technologies. 
+            I craft beautiful, responsive web/mobile applications with modern technologies. 
             Passionate about creating exceptional user experiences and scalable solutions.
           </p>
 

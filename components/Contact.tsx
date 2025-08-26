@@ -60,26 +60,26 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alex.johnson@email.com',
-      href: 'mailto:alex.johnson@email.com',
+      value: 'chethiyabandaraherath@gmail.com',
+      href: 'mailto:chethiyabandaraherath@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+94 (75) 712-0896',
+      href: 'tel:+94757120896',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Sri Lanka',
       href: '#',
     },
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/Chethiya2001', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/chethiya-bandara-96867234a/', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
   ];
 

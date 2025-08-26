@@ -21,66 +21,20 @@ export default function Experience() {
   const experiences: ExperienceItem[] = [
     {
       id: 1,
-      title: 'Senior Full Stack Developer',
-      company: 'TechCorp Inc.',
-      location: 'San Francisco, CA',
-      period: '2022 - Present',
-      description: 'Leading development of scalable web applications and mentoring junior developers in a fast-paced startup environment.',
-      achievements: [
-        'Led a team of 5 developers to deliver a customer portal used by 10k+ users',
-        'Reduced application load time by 40% through optimization techniques',
-        'Implemented CI/CD pipeline reducing deployment time by 60%',
-        'Architected microservices infrastructure handling 1M+ requests daily'
-      ],
-      technologies: ['React', 'Next.js', 'Node.js', 'PostgreSQL', 'AWS', 'Docker'],
-      companyUrl: '#'
-    },
-    {
-      id: 2,
-      title: 'Full Stack Developer',
-      company: 'Digital Solutions LLC',
-      location: 'Austin, TX',
-      period: '2020 - 2022',
+      title: 'Software Developer',
+      company: 'Code Fusion PTE LTD.',
+      location: 'Remote',
+      period: '2023 - Present',
       description: 'Developed and maintained multiple client projects ranging from e-commerce platforms to business management systems.',
       achievements: [
-        'Built 15+ responsive web applications for diverse client base',
-        'Improved client satisfaction scores by 25% through quality delivery',
-        'Introduced automated testing reducing bug reports by 50%',
-        'Collaborated with design team to create pixel-perfect UI implementations'
+        'Delivered 2+ full-stack solutions, including .NET APIs, Angular/React web apps, and Flutter mobile applications',
+        'Boosted client satisfaction by 25% through timely delivery and high-quality solutions',
+        'Implemented automated testing pipelines, reducing bug reports by 50%',
+        'Enhanced UI/UX by collaborating with designers and ensuring pixel-perfect Angular and React implementations',
+        'Optimized deployment workflows using Docker and AWS, cutting release time by 40%'
       ],
-      technologies: ['Vue.js', 'Python', 'Django', 'MySQL', 'Redis', 'GCP'],
-      companyUrl: '#'
-    },
-    {
-      id: 3,
-      title: 'Frontend Developer',
-      company: 'StartupXYZ',
-      location: 'Remote',
-      period: '2019 - 2020',
-      description: 'Focused on creating exceptional user experiences and implementing modern frontend architectures.',
-      achievements: [
-        'Developed responsive SPA serving 50k+ monthly active users',
-        'Implemented real-time features using WebSocket connections',
-        'Created reusable component library adopted across 3 products',
-        'Achieved 98% cross-browser compatibility across all major browsers'
-      ],
-      technologies: ['React', 'TypeScript', 'SASS', 'Webpack', 'Jest', 'Cypress'],
-      companyUrl: '#'
-    },
-    {
-      id: 4,
-      title: 'Junior Web Developer',
-      company: 'WebDev Agency',
-      location: 'Chicago, IL',
-      period: '2018 - 2019',
-      description: 'Started my professional journey building websites and learning modern web development practices.',
-      achievements: [
-        'Completed 20+ client websites with 100% on-time delivery',
-        'Learned and applied modern JavaScript frameworks and build tools',
-        'Contributed to open-source projects and internal tools',
-        'Received "Rising Star" award for exceptional performance'
-      ],
-      technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'PHP', 'WordPress'],
+
+      technologies: ['.Net', 'ReactJs', 'Angular', 'MySQL', 'MongoDb', 'AWS', 'Docker', 'Flutter'],
       companyUrl: '#'
     }
   ];
@@ -111,7 +65,7 @@ export default function Experience() {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full mb-8"></div>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              My journey through various roles and companies, each contributing to my growth 
+              My journey through various roles and companies, each contributing to my growth
               as a developer and professional.
             </p>
           </div>
@@ -124,9 +78,8 @@ export default function Experience() {
               {experiences.map((exp, index) => (
                 <div
                   key={exp.id}
-                  className={`relative transition-all duration-1000 ${
-                    isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
-                  }`}
+                  className={`relative transition-all duration-1000 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'
+                    }`}
                   style={{ transitionDelay: `${index * 200}ms` }}
                 >
                   {/* Timeline dot */}
@@ -142,9 +95,9 @@ export default function Experience() {
                           <div className="flex items-center">
                             <Building className="h-4 w-4 mr-2" />
                             {exp.companyUrl ? (
-                              <a 
-                                href={exp.companyUrl} 
-                                target="_blank" 
+                              <a
+                                href={exp.companyUrl}
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors flex items-center"
                               >

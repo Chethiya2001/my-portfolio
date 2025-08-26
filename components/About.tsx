@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Code, Palette, Zap, Users } from 'lucide-react';
+import { Code, Palette, Zap, Users, BugIcon } from 'lucide-react';
 
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,10 +29,11 @@ export default function About() {
       description: 'Writing maintainable, scalable, and efficient code following best practices.',
     },
     {
-      icon: Palette,
-      title: 'UI/UX Design',
-      description: 'Creating beautiful, intuitive interfaces that provide exceptional user experiences.',
-    },
+      icon: BugIcon,
+      title: 'Debugging',
+      description: 'Skilled at identifying, analyzing, and resolving software issues to ensure smooth and efficient application performance.',
+    }
+    ,
     {
       icon: Zap,
       title: 'Performance',
@@ -63,16 +64,16 @@ export default function About() {
                 Passionate Developer & Problem Solver
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
-                With over 5 years of experience in full-stack development, I specialize in building 
-                modern web applications using React, Next.js, Node.js, and cutting-edge technologies. 
+                With over 2+ years of experience in full-stack development, I specialize in building
+                modern applications using .Net, Angular, React.js,Flutter and cutting-edge technologies.
                 I'm passionate about creating solutions that make a difference.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to 
-                open-source projects, or sharing knowledge with the developer community through 
+                When I'm not coding, you'll find me exploring new technologies, contributing to
+                open-source projects, or sharing knowledge with the developer community through
                 blog posts and mentoring.
               </p>
-              
+
               <div className="flex flex-wrap gap-3">
                 {['React', 'Next.js', 'TypeScript', 'Node.js', 'Python', 'AWS'].map((tech) => (
                   <span
@@ -91,9 +92,8 @@ export default function About() {
                 {features.map((feature, index) => (
                   <div
                     key={feature.title}
-                    className={`p-6 bg-gray-50 dark:bg-gray-800 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-1 ${
-                      isVisible ? 'animate-fade-in-up' : ''
-                    }`}
+                    className={`p-6 bg-gray-50 dark:bg-gray-800 rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-1 ${isVisible ? 'animate-fade-in-up' : ''
+                      }`}
                     style={{ animationDelay: `${600 + index * 100}ms` }}
                   >
                     <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mb-4">
