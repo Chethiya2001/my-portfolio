@@ -14,22 +14,22 @@ export default function Skills() {
 
   const skills: Skill[] = [
     // Frontend
-    { name: 'React/Next.js', level: 95, category: 'frontend' },
-    { name: 'TypeScript', level: 90, category: 'frontend' },
-    { name: 'Tailwind CSS', level: 88, category: 'frontend' },
-    { name: 'Vue.js', level: 75, category: 'frontend' },
+    { name: 'React/Next.js', level: 85, category: 'frontend' },
+    { name: 'UI/UX', level: 80, category: 'frontend' },
+    { name: 'Flutter', level: 88, category: 'frontend' },
+    { name: 'Angular', level: 85, category: 'frontend' },
     
     // Backend
-    { name: 'Node.js', level: 92, category: 'backend' },
-    { name: 'Python', level: 85, category: 'backend' },
-    { name: 'PostgreSQL', level: 80, category: 'backend' },
-    { name: 'MongoDB', level: 78, category: 'backend' },
+    { name: '.Net', level: 92, category: 'backend' },
+    { name: 'NodeJs', level: 85, category: 'backend' },
+    { name: 'SQL', level: 80, category: 'backend' },
+    { name: 'NoSQL', level: 78, category: 'backend' },
     
     // Tools
     { name: 'AWS', level: 82, category: 'tools' },
     { name: 'Docker', level: 75, category: 'tools' },
     { name: 'Git', level: 90, category: 'tools' },
-    { name: 'Figma', level: 70, category: 'tools' },
+    { name: 'Figma', level: 80, category: 'tools' },
     
     // Soft Skills
     { name: 'Problem Solving', level: 95, category: 'soft' },

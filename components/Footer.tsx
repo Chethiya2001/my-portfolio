@@ -12,7 +12,7 @@ export default function Footer() {
               Chethiya Bandara
             </h3>
             <p className="text-gray-400 max-w-md mx-auto">
-              Full Stack Developer passionate about creating exceptional web experiences 
+              Full Stack Developer passionate about creating exceptional Web/Mobile experiences 
               and scalable solutions.
             </p>
           </div>
